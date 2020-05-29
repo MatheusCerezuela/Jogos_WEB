@@ -1,0 +1,89 @@
+<html xml:lang="en" lang"en" xmlns="http://www.w3.org/1999/xhmtl">
+<head>
+  <meta http-equiv="Content-Type" content="text/html;" charset="utf-8" />       
+  <link rel="stylesheet" href="assets/style.css" />
+</head> 
+<body>
+  
+<div style="text-align:center">
+
+  <svg width="800" height="600" xlmns="http://www.w3.org/200/svg" xlmns:xlink="http://www.w3.org/1999/xlink">
+      
+    <defs>
+      <style>
+
+      .triangle {
+          animation: loopTriangle 1s ease-in-out forwards 1;
+
+      } 
+
+      @keyframes loopTriangle {
+        to {
+              fill: #FFFFFF;
+			  stroke: #FFFFFF
+        }
+
+      }        
+
+      </style>
+    </defs>
+    <polygon points="200,0 100,210 300,210" id="triangle" class="triangle" style="fill:lime;stroke:Red;stroke-width:2;fill-rule:nonzero;"/>
+  </svg>
+
+  
+  <svg width="400" height="400" xlmns="http://www.w3.org/200/svg" xlmns:xlink="http://www.w3.org/1999/xlink">
+      
+    <defs>
+      <style>
+      .circle {
+          animation: loopCirculo 0.2s linear infinite alternate;
+
+      }    
+      
+      @keyframes loopCirculo {
+        to {
+		
+            transform: translate(40px, 3px);
+			  fill: #BE253F;
+        }      
+
+      </style>
+    </defs>
+    <circle id="circle" class="circle" cx="50" cy="50" r="50" style="fill:#FA7FAE; stroke: Silver"/>
+</svg>
+
+   
+
+
+ <!--> </!-->
+<svg width="600" height="300" viewBox="0 0 500 200" xlmns="http://www.w3.org/200/svg" xlmns:xlink="http://www.w3.org/1999/xlink">
+      
+    <defs>
+      <style>
+
+      .rect {
+          animation: loopRect 1s linear infinite alternate;
+
+      } 
+
+      @keyframes loopRect {
+        to {
+		  position: center;
+            transform: translate(3px, 40px);
+			transform: scaleX(1.5);
+        }
+
+      }        
+
+      </style>
+    </defs>
+
+    <rect id="rect" class="rect" x="20" y="20" rx="5" ry="5" width="100" height="50" style="stroke:white; fill:#F67C17;"/>
+	
+  </svg>
+  
+ </div>
+ 
+</body> 
+
+</html>
