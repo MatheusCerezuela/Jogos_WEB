@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="300" height="34" viewBox="0 0 300 34">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        font-size: 33px;
+        
+      }
+
+      .cls-2 {
+        text-anchor: middle;
+        font-family: "Press Start 2P";
+        fill: transparent;
+        animation: preenchimento 3s ease-in-out forwards 1;
+      }
+
+      @keyframes preenchimento{
+        to {
+            fill: #BE253F;
+        }
+
+      }
+
+
+
+    </style>
+  </defs>
+  <text x="151" y="35" class="cls-1"><tspan x="151" class="cls-2">GAME OVER</tspan></text>
+</svg>
